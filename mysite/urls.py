@@ -21,4 +21,5 @@ from django.urls import path
 urlpatterns = [
     path('admin/', admin.site.urls),
     url(r'^polls/', include('polls.urls')),
+    url(r'^', include('api.urls')), # Add this line
 ]

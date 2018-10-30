@@ -39,6 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     'polls.apps.PollsConfig',
+    'rest_framework',
+    'api'
 ]
 
 MIDDLEWARE = [
@@ -80,8 +82,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'training',
-        'USER': 'training',
-        'PASSWORD': 'training',
+        'USER': 'gramedia',
+        'PASSWORD': 'p@ssw0rd24',
         'port' : '5432',
         'HOST': 'localhost'
     }
